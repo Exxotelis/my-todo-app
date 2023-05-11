@@ -1,4 +1,3 @@
-add a new one
 trim the lown
 fix the bug
 fix the computer

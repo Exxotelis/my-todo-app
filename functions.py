@@ -1,4 +1,4 @@
-FILEPATH = "../webapp1/todos.txt"
+FILEPATH = "./todos.txt"
 
 
 def get_todos(filepath=FILEPATH):
@@ -12,7 +12,7 @@ def write_todos(todos_args, filepath=FILEPATH):
         file.writelines(todos_args)
 
 
-# if __name__ == "__main__":
-#     print("Hello from Functions")
-#     print(get_todos())
-# print(get_todos())
+if __name__ == "__main__":
+    print("Hello from Functions")
+    print(get_todos())
+print(get_todos())
